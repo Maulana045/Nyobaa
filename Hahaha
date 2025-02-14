@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine!</title>
+    <style>
+        body {
+            background-color: #ffebf0;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .heart {
+            color: red;
+            font-size: 50px;
+            animation: pulse 1s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
+        .message {
+            font-size: 24px;
+            color: #d63384;
+            margin-top: 20px;
+        }
+        .button {
+            background-color: #ff66b2;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .button:hover {
+            background-color: #ff3385;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>💖 Selamat Hari Valentine! 💖</h1>
+        <div class="heart">❤️</div>
+        <p class="message">Kamu adalah orang yang spesial! Semoga harimu penuh cinta dan kebahagiaan! 💕</p>
+        <button class="button" onclick="alert('I love you! ❤️')">Klik untuk kejutan!</button>
+    </div>
+</body>
+</html>
